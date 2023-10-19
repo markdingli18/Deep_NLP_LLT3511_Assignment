@@ -1,0 +1,7 @@
+Dear [Lecturer's Name],
+
+I hope this email finds you well. I'm currently working on the text compression project and have a couple of questions that I would like to clarify.
+
+Predicting the First Token: In the implementation, I'm using a model to predict the 'next' token based on the 'previous' one. However, this leaves the first token of each sentence as is, without attempting to predict it. Given that there is no token preceding the first one, I wasn't sure if it should be subject to prediction and potentially replaced with 'X'. Could you please advise me on how best to handle this scenario?
+
+Skipping Empty Lines: In the code, I'm encountering situations where a line might be empty after tokenization. My current approach is to skip such lines to avoid errors. Is this an acceptable approach, or is there a more appropriate way to handle this?
